@@ -45,6 +45,14 @@ def quick_sort(nums,low,high):
 
 
 
+
 nums = [1,2,9,8,4,0,5,6,3,2]
 quick_sort(nums,0,len(nums)-1)
 print(nums)
+
+'''
+the quick sort method doesnt return a new list , it changes the same list
+time complexity = O(N logN) | => this is avg time complexity
+In worst case = O(N*N) => when all numbers are same in a list
+space complexity = O(1)
+'''
