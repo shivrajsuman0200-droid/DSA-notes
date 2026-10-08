@@ -36,5 +36,22 @@ def optimalSoln(nums):
 # space complexity = O(1)
 
 
+# Optimal solution 
+
+def reverse(nums,left,right):
+    while left >right:
+        nums[left],nums[right]=nums[right],nums[left]
+        left+=1
+        right+=1
+n=len(nums)
+k=int(input())
+reverse(n-k,n-1) # reverse last k elements
+reverse(0,n-k-1) # reverse remaining elements
+reverse(0,n-1) # reverse whole array
+
+# timecomplexity = O(n)
+# space complexity = O(1)
+
+
 
         
