@@ -1,4 +1,4 @@
-'''Move Zeros to the End of the List '''
+'''Move Zeros to the End of the List without creating a new list '''
 
 
 list1 = [1, 2, 3, 4, 0,0,0,0,0,5, 6, 0, 0, 9, 0, 8]
@@ -39,4 +39,3 @@ and on the very next itteration when i finds a non zero number , they swap. J on
 
 # time complexity = O(n)
 # space complexity = O(1)
-
