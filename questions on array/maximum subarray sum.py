@@ -5,14 +5,14 @@ and return the maximum value'''
 
 l=[1,2,3,-2,-3,-10,10,2,1,0,-3,2,-20,0,10,1]
 def maximum_subArray_sum(l):
-    maxi=float("-inf")
+    maximum=float("-inf")
     sum=0
     for i in range(len(l)):
         for j in range(i,len(l)):
             sum=sum+l[j]
-            maxi=max(maxi,sum)
+            maximum=max(maximum,sum)
         sum=0
-    return maxi
+    return maximum
 
 print(maximum_subArray_sum(l))
 

@@ -3,7 +3,7 @@
 find the max number of times 1 comes continuously in an array
 '''
 
-l=[1,0,1,1,1,0,0,1,0,1,1,1,1,1,1,0,1,0,1]
+l=[1,0,1,1,1,0,0,1,0,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1]
 def max1(arr):
     maximum=0
     count=0

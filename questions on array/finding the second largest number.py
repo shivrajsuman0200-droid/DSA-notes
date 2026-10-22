@@ -16,7 +16,7 @@ def sec_largest(nums):
             second_largest=i
     return(sec_largest)
 
-l=[1,2,3,9,1,10,1000,2000,30,4,-92,-900,0]
+l=[1,2,3,9,1,10,2000,1000,30,4,-92,-900,0]
 # print(sec_largest(l))
 
 # time complexity = O(n)
