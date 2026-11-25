@@ -15,7 +15,7 @@ def gcd(a,b):    # a,b are numbers
 # ----------------------------------------------------------------------------------
 
 # Euclidean Algorithm
-def EGcf(a,b):
+def EGcd(a,b):
     while b!=0:
         remainder = a%b
         a=b
@@ -23,4 +23,4 @@ def EGcf(a,b):
 
     return a
 
-print(EGcf(4,8))
+print(EGcd(4,8))
